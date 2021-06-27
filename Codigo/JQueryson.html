@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>Trabalhando com JSON</title>
+   <script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+   <script type="text/javascript" language="javascript">
+   $(document).ready(function() {
+      $("#driver").click(function(event){
+          $.getJSON('JQuery/dados.json', function(v) {
+             $('#stage').html('<p> Filme 1: ' + v.filme1 + '</p>');            $('#stage').append('<p>Filme 2 : ' + v.filme2+ '</p>');
+        $('#stage').append('<p> Filme 3: ' + v.filme3+ '</p>');
+          });
+      });
+   });
+   </script>
+</head>
+<body>
+   <p>Clique no botão para carregar os dados</p>
+   <div id="stage" style="background-color:red;">
+          Filmes:
+   </div>
+   <input type="button" id="driver" value="Carregar " />
+</body>
+</html>
