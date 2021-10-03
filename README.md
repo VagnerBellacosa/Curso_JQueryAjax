@@ -1,3 +1,19 @@
+<!-- PROJECT SHIELDS -->
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+<!-- PROJECT LOGO -->
+![Bootcamps na Digital Innovation One](BootCamps/Images/capa.png "Bootcamps")
+
+
+
+
+
 # Curso_JQueryAjax
 Primeiros passos em JQuery e Ajax
 
@@ -27,14 +43,18 @@ Você pode criar efeitos de slide com apenas algumas linha de código.
 
 Você pode usar os comandos **SlideDown()**, **SlideUp()** e **SlideToogle()**.
 
+```
 $("#flip").click(**function**(){
 
  $("#panel").slideDown();
 
 });
 
+```
+
 Com jQuery, você também pode esconder os elementos em HTML com os comandos **Hide()** e **Show()**. Veja:
 
+```
 $("#hide").click(**function**(){
 
  $("p").hide();
@@ -47,8 +67,11 @@ $("#show").click(**function**(){
 
 });
 
+```
+
 E aqui está um exemplo de animação:
 
+```
 $("button").click(**function**(){
 
  $("div").animate({
@@ -62,14 +85,17 @@ $("button").click(**function**(){
  });
 
 });
+```
 
 E aqui você vê o fragmento de um código para entender como manipular o CSS.
 
+```
 $("button").click(**function**(){
 
  $("h1, h2, p").toggleClass("blue");
 
 });
+```
 
 ## **Recursos Importantes do jQuery**
 
@@ -85,8 +111,6 @@ Criar animações também é simples com o jQuery. Como no exemplo de código ac
 
 A transferência de documentos HTML, bem como a manipulação de efeitos e eventos, também são melhores com o jQuery.
 
-
-
 #### 
 
 Você precisa conhecer melhor a Hostinger! Nós temos o plano ideal para cada projeto e mais de 800 extensões de domínio. É só escolher!
@@ -96,9 +120,6 @@ Para o melhor projeto, a melhor oferta!
 [Usar Cupom](https://www.hostinger.com.br/cart/add/hosting-hostinger-premium/order_period/3?coupon=START_BLOG)
 
 
-
- 
-
 ## **Vantagens jQuery**
 
 Os benefícios de usar o jQuery são substanciais. O slogan “Escreva menos, faça mais” tem tudo a ver com a jQuery. Quando você aprender a como usar jQuery (que é muito fácil), você será capaz de executar todas os tipos de ações com facilidade.
@@ -107,7 +128,7 @@ Considerando que é a biblioteca JavaScript mais popular disponível, existem mu
 
 Se você está usando JavaScript, é quase obrigatório usar a jQuery por tantos benefícios que isso traz, já que o único desafio será aprender como usar e então aplicar no seu trabalho!
 
-
+----
 
 # O Que é AJAX e Como Funciona?
 
@@ -121,7 +142,7 @@ O **JavaScript** é uma linguagem de programação bem conhecida. Entre suas fun
 
 Tanto o JavaScript quanto o XML trabalham de forma assíncrona no AJAX. Assim, qualquer aplicação que use AJAX pode enviar e receber dados do servidor sem precisar recarregar a página inteira.
 
-Conteúdo
+## Conteúdo
 
 - [Exemplos de AJAX na Prática](https://www.hostinger.com.br/tutoriais/o-que-e-ajax#Exemplos-de-AJAX-na-Pratica)
 - [Como o Ajax Web Funciona?](https://www.hostinger.com.br/tutoriais/o-que-e-ajax#Como-o-Ajax-Web-Funciona)
@@ -157,7 +178,6 @@ Simplificando, o AJAX torna o processo de multitarefas mais simples. Sempre que 
 Se você deseja melhorar seu site, não se esqueça de mostrar ao Google e aos seus clientes que você cuidou dos problemas de segurança. Você pode [comprar SSL](https://www.hostinger.com.br/comprar-ssl) na Hostinger agora mesmo e garantir a proteção dos seus visitantes!
 
  
-
 ## **Como o Ajax Web Funciona?**
 
 É importante lembrar que o AJAX não é uma única tecnologia, ou até mesmo uma linguagem de programação. Como mencionado antes, o AJAX é uma série de técnicas de desenvolvimento voltadas para web. O sistema geralmente é composto por:
@@ -181,3 +201,30 @@ Se você deseja melhorar seu site, não se esqueça de mostrar ao Google e aos s
 ## **Conclusão**
 
 Além de aprender o que é AJAX, um dos propósitos do tutorial é explicar como o AJAX melhora a experiência do usuário. Seus visitantes não precisam mais aguardar um tempão para ter acesso ao seu conteúdo. Claro que muito se baseia na sua necessidade. O Google, por exemplo, permite que os usuários escolham entre o AJAX e a versão convencional ao utilizar o Google Mail. Por isso, fica a nossa dica: coloque sempre as necessidades de seus visitantes em primeiro lugar antes de decidir.
+
+
+
+
+
+---
+
+#### * DIO - Digital Inovation One *
+######  [Inscreva-se na Dio](https://web.dio.me/sign-up?ref=R5J3ZLTIFS)  
+
+######  [Vagner Bellacosa perfil na Dio](https://web.dio.me/users/vagnerbellacosa?tab=achievements)  
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/VagnerBellacosa/Curso_JQueryAjax.svg?style=for-the-badge
+[contributors-url]: https://github.com/VagnerBellacosa/Curso_JQueryAjax/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/VagnerBellacosa/Curso_JQueryAjax.svg?style=for-the-badge
+[forks-url]: https://github.com/VagnerBellacosa/Curso_JQueryAjax/network/members
+[stars-shield]: https://img.shields.io/github/stars/VagnerBellacosa/Curso_JQueryAjax.svg?style=for-the-badge
+[stars-url]: https://github.com/VagnerBellacosa/Curso_JQueryAjax/stargazers
+[issues-shield]: https://img.shields.io/github/issues/VagnerBellacosa/Curso_JQueryAjax.svg?style=for-the-badge
+[issues-url]: https://github.com/VagnerBellacosa/Curso_JQueryAjax/issues
+[license-shield]: https://img.shields.io/github/license/VagnerBellacosa/Curso_JQueryAjax.svg?style=for-the-badge
+[license-url]: https://github.com/VagnerBellacosa/Curso_JQueryAjax/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/VagnerBellacosa/
+[product-screenshot]: BootCamps/images/capa.png
